@@ -1,0 +1,38 @@
+# Bridge Between Investor and Business People
+
+## Overview
+
+**"Bridge Between Investor and Business People"** is a web application designed to connect investors with entrepreneurs and business owners. The platform serves as a dedicated space where individuals with innovative business ideas can showcase their proposals and investors can explore these opportunities to invest in promising ventures. The project is built using HTML, CSS, JavaScript, and Firebase, providing a modern, secure, and user-friendly interface for all parties involved.
+
+## Features
+
+- **User Authentication**: Secure user registration and login for investors and business people using Firebase Authentication.
+- **Post Business Proposals**: Business owners can post detailed business proposals, including project descriptions, required investment, and business categories.
+- **View Investment Opportunities**: Investors can browse and evaluate business proposals and connect with entrepreneurs.
+- **Secure Data Management**: All data, including user information and proposals, is securely stored using Firebase Firestore.
+- **Responsive Design**: The platform is designed to be responsive and accessible on various devices, including desktops, tablets, and smartphones.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Firebase (Authentication, Firestore, Hosting)
+- **Version Control**: Git and GitHub
+- **Deployment**: Firebase Hosting
+
+## Project Structure
+
+```plaintext
+/bridge-between-investors-and-business
+│
+├── /public
+│   ├── index.html          # Home page
+│   ├── login.html          # Login page for users
+│   ├── signup.html         # Registration page for new users
+│   ├── dashboard.html      # Main dashboard for logged-in users
+│   ├── /css
+│   │   └── styles.css      # Styling for the web pages
+│   └── /js
+│       └── app.js          # Main JavaScript file handling the app logic
+├── .firebaserc             # Firebase project configuration
+├── firebase.json           # Firebase hosting configuration
+└── .gitignore              # Git ignore file to exclude unnecessary files
